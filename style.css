@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', Sans Serif;
+	color: #222;
+}
+
+.navbar{
+	padding: .8rem;
+}
+.navbar-nav li{
+	padding-right: 1.3em;
+}
+.nav-link{
+	font-size: 1.2em !important;
+}
+.navbar-brand>img{
+	max-height: 40px;
+}
+.carousel-inner{
+	background-color: #563d7c;
+}
+.carousel-inner img {
+	width:100%;
+	max-height: 840px;
+	object-fit: contain;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%)
+}
+.carousel-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.btn-primary{
+	background-color: #6648b1;
+	border: 1px solid #563d7c;
+}
+.btn-primary:hover{
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+.social a{
+	font-size:3em;
+	padding: .6rem;
+}
+.fa-facebook{
+	color:#3b5998;
+}
+.fa-instagram{
+	color:#517fa8;
+}
+.services{
+	margin: 0 auto;
+	width: 70%;
+}
+.serviceIcon{
+	max-width: 40%;
+	height: auto;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.fitAlign{
+	width: fit-content;
+	margin: 0 auto;
+}
+tr > td:first-child{
+	text-align: left; 
+}
+tr > td:last-child{
+	text-align: right;
+}
+#hours{
+	margin: 0 auto;
+	max-width:75%;
+}
+#training{
+	background-color: #BA43FF;
+	padding-top:4rem;
+}
+footer {
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+	padding-top:2rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+	.carousel-caption{
+		font-size:50%;
+		position: absolute;
+		top: 60%;
+		transform: translateY(-50%)
+	}
+}
+@media (max-width: 768px) {
+	
+}
+@media (max-width: 576px) {
+	.carousel-caption{
+		top: 60%;
+	}
+	.carousel-caption h1{
+		font-size: 290%;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 10px #000;
+	}
+	.carousel-caption .btn{
+		font-size: 100%;
+		padding: 4px 8px;
+	}
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
