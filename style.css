@@ -121,7 +121,9 @@ footer {
 	}
 }
 @media (max-width: 768px) {
-	
+	#contact-information h4 {
+		font-size: 100%;
+	}
 }
 @media (max-width: 576px) {
 	.carousel-caption{
