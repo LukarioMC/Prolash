@@ -76,7 +76,7 @@ html, body{
 	width: 70%;
 }
 .serviceIcon{
-	max-width: 70%;
+	width: 70%;
 	height: auto;
 	border-radius: 50%;
 	object-fit: cover;
