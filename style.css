@@ -1,152 +1,154 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-html, body{
-	width: 100%;
-	font-family: 'Poppins', Sans Serif;
-	color: #222;
+html,
+body {
+    width: 100%;
+    font-family: 'Poppins', Sans Serif;
+    color: #222;
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
 }
 
-.navbar{
-	padding: .8rem;
+.navbar {
+    padding: 0.8rem;
 }
-.navbar-nav li{
-	padding-right: 1.3em;
+.navbar-nav li {
+    padding-right: 1.3em;
 }
-.nav-link{
-	font-size: 1.2em !important;
+.nav-link {
+    font-size: 1.2em !important;
 }
-.navbar-brand>img{
-	max-height: 3.2rem;
+.navbar-brand > img {
+    max-height: 3.2rem;
 }
-.carousel-inner{
-	background-color: #563d7c;
+.carousel-inner {
+    background-color: #563d7c;
 }
 .carousel-inner img {
-	width:100%;
-	max-height: 840px;
-	object-fit: contain;
+    width: 100%;
+    max-height: 840px;
+    object-fit: contain;
 }
-.carousel-caption{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%)
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.carousel-caption h1{
-	font-size: 500%;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 10px #000;
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
 }
-.btn-primary{
-	background-color: #6648b1;
-	border: 1px solid #563d7c;
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
 }
-.btn-primary:hover{
-	background-color: #563d7c;
-	border: 1px solid #563d7c;
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
 }
-.padding{
-	padding-bottom: 2rem;
+.padding {
+    padding-bottom: 2rem;
 }
-.welcome{
-	width: 75%;
-	margin: 0 auto;
-	padding-top: 2rem;
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
-.welcome hr{
-	border-top: 2px solid #b4b4b4;
-	width: 95%;
-	margin-top: 0.3rem;
-	margin-bottom: 1rem;
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
 }
-.social a{
-	font-size:3em;
-	padding: 0px .6rem;
+.social a {
+    font-size: 3em;
+    padding: 0px 0.6rem;
 }
-.fa-facebook{
-	color:#3b5998;
+.fa-facebook {
+    color: #3b5998;
 }
-.fa-instagram{
-	color:#517fa8;
+.fa-instagram {
+    color: #517fa8;
 }
-.services{
-	margin: 0 auto;
-	width: 70%;
+.services {
+    margin: 0 auto;
+    width: 70%;
 }
-.serviceIcon{
-	width: 70%;
-	height: auto;
-	border-radius: 50%;
-	object-fit: cover;
+.serviceIcon {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
-.fitAlign{
-	width: fit-content;
-	margin: 0 auto;
+.fitAlign {
+    width: fit-content;
+    margin: 0 auto;
 }
 .gallery-image {
-	height: min(90vh, 512px);
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+    height: min(90vh, 512px);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-tr > td:first-child{
-	text-align: left; 
+tr > td:first-child {
+    text-align: left;
 }
-tr > td:last-child{
-	text-align: right;
+tr > td:last-child {
+    text-align: right;
 }
-#hours{
-	margin: 0 auto;
-	max-width:75%;
+#hours {
+    margin: 0 auto;
+    max-width: 75%;
 }
-#training{
-	background-color: #BA43FF;
-	padding-top:4rem;
+#training {
+    background-color: #ba43ff;
+    padding-top: 4rem;
 }
 footer {
-	background-color:#3f3f3f;
-	color:#d5d5d5;
-	padding-top:2rem;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
 }
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-	.carousel-caption{
-		font-size:50%;
-		position: absolute;
-		top: 60%;
-		transform: translateY(-50%)
-	}
+    .carousel-caption {
+        font-size: 50%;
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+    }
 }
 @media (max-width: 768px) {
-	#contact-information h4 {
-		font-size: 100%;
-	}
+    #contact-information h4 {
+        font-size: 100%;
+    }
 }
 @media (max-width: 576px) {
-	.carousel-caption{
-		top: 60%;
-	}
-	.carousel-caption h1{
-		font-size: 290%;
-		text-transform: uppercase;
-		text-shadow: 1px 1px 10px #000;
-	}
-	.carousel-caption .btn{
-		font-size: 100%;
-		padding: 4px 8px;
-	}
+    .carousel-caption {
+        top: 60%;
+    }
+    .carousel-caption h1 {
+        font-size: 290%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 10px #000;
+    }
+    .carousel-caption .btn {
+        font-size: 100%;
+        padding: 4px 8px;
+    }
 }
-
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
 }
 /*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
+[class*='col-'] {
     padding: 1rem;
 }
