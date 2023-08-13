@@ -20,6 +20,7 @@ body {
 }
 .navbar-brand > img {
     max-height: 3.2rem;
+    padding-left: 0.5em;
 }
 .carousel-inner {
     background-color: #563d7c;
